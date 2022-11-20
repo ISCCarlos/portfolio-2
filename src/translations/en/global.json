@@ -1,4 +1,8 @@
 {
+  "about": {
+    "content": "I'm a technology lover, I like innovation and stability in software products. A lover of new challenges.",
+    "title": "About me"
+  },
   "common": {
     "advanced": "Advanced",
     "back": "Back",
@@ -51,12 +55,6 @@
       "showFace": "Show my face",
       "title": "Settings"
     }
-  },
-  "landing": {
-    "aboutMeContent": "I'm a technology lover, I like innovation and stability in software products. A lover of new challenges.",
-    "aboutMeTitle": "About me",
-    "location": "Mexico City",
-    "toggleImages": "Show my face"
   },
   "menu": {
     "about": "About me",

@@ -9,7 +9,9 @@ function App() {
       <div className="App-body">
         <Header />
         <MenuBar />
-        <About />
+        <div className="page-content">
+          <About />
+        </div>
       </div>
     </div>
   );
