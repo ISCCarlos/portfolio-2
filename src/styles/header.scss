@@ -1,0 +1,58 @@
+$bg-color: #ff8888; //start color
+$stops: 100; //smoothness
+$time: 20s; //duration of animation
+$hue-range: 20; //of 360deg
+
+.header {
+  background-color: $bg-color;
+  -webkit-animation: colorChange $time linear 0s infinite;
+  animation: colorChange $time linear 0s infinite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@-webkit-keyframes colorChange {
+  @for $i from 0 through $stops {
+    $old-color: adjust-hue($bg-color, (360 / $stops) * $i);
+    $new-color: adjust-hue($bg-color, (360 / $stops) * $i + $hue-range);
+    #{$i}% {
+      background: -webkit-linear-gradient(left, $old-color, $new-color);
+      background: linear-gradient(to right, $old-color, $new-color);
+    }
+  }
+}
+
+@keyframes colorChange {
+  @for $i from 0 through $stops {
+    $old-color: adjust-hue($bg-color, (360 / $stops) * $i);
+    $new-color: adjust-hue($bg-color, (360 / $stops) * $i + $hue-range);
+    #{$i}% {
+      background: linear-gradient(to right, $old-color, $new-color);
+    }
+  }
+}
+
+.title {
+  font-size: 20vw;
+  margin: 0;
+  margin-left: 5vw;
+}
+
+.sub-title {
+  font-size: 20vw;
+  margin: 0;
+  margin-left: 57.5vw;
+  margin-right: 5vw;
+  margin-top: -9vw;
+}
+
+.main-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
