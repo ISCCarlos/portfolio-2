@@ -3,7 +3,7 @@ import "../styles/header.scss";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import { IconButton } from '@mui/material';
+import { Link } from '@mui/material';
 
 const Header = () => {
   return (
@@ -12,24 +12,13 @@ const Header = () => {
       <p className="sub-title">Dev</p>
 
       <div className='main-links'>
-        <IconButton
-          size='large'
-          aria-label="LinkedIn"
-          aria-controls="LinkedIn"
-          aria-haspopup="true"
-          color="inherit" ><LinkedInIcon /></IconButton>
-        <IconButton
-          size='large'
-          aria-label="Github"
-          aria-controls="Github"
-          aria-haspopup="true"
-          color="inherit" ><GitHubIcon /></IconButton>
-        <IconButton
-          size='large'
-          aria-label="Telegram"
-          aria-controls="Telegram"
-          aria-haspopup="true"
-          color="inherit" ><TelegramIcon /></IconButton>
+        <Link href='https://www.linkedin.com/in/carlos-giovanni-ch%C3%A1vez-arias-5502b3212/' target='_blank' color='inherit'><LinkedInIcon fontSize='large' /></Link>
+        <Link href="https://github.com/ISCCarlos" target="_blank" color='inherit' >
+          <GitHubIcon fontSize='large' />
+        </Link>
+        <Link href="https://t.me/carlos_chavez" target="_blank" color='inherit'>
+          <TelegramIcon fontSize='large' />
+        </Link>
       </div>
     </div>
   )

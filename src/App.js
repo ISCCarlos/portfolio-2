@@ -6,11 +6,11 @@ import MenuBar from "./components/MenuBar";
 function App() {
   return (
     <div className="App">
-      <body className="App-body">
+      <div className="App-body">
         <Header />
         <MenuBar />
         <About />
-      </body>
+      </div>
     </div>
   );
 }
