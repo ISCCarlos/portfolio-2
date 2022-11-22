@@ -9,5 +9,15 @@
 }
 
 .page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 24px;
+}
+
+.card-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
