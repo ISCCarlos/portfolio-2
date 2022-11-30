@@ -1,7 +1,7 @@
 {
   "about": {
-    "content": "I'm a frontend software developer with 6 years of experience and starting a route in backend development.",
-    "content1": "My ",
+    "content": "I'm a frontend software developer with {{experience}} years of experience and starting a route in a backend development.",
+    "content1": "My professional objetive is create scalable, reliable and ",
     "title": "About me"
   },
   "common": {
@@ -57,6 +57,7 @@
   "menu": {
     "about": "About me",
     "contact": "Contact",
+    "home": "Home",
     "projects": "Projects",
     "techStack": "Tech Stack"
   },

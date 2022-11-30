@@ -7,8 +7,15 @@ const About = () => {
 
   return (
     <div className='card-page'>
-      <Typography variant="h3" >{translations("about.title")}</Typography>
-      <Divider width={'95%'} sx={{ ml: '2.5%' }} />
+      <Divider component="div" role="presentation">
+        <Typography variant="h3">{translations("about.title")}</Typography>
+      </Divider>
+      <Typography variant="h6" mt={5}>
+        {translations("about.content", { experience: 6 })}
+      </Typography>
+      <Typography variant="h6">
+        {translations("about.content1")}
+      </Typography>
     </div>
   )
 }

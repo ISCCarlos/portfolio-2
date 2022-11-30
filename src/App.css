@@ -17,7 +17,16 @@
 
 .card-page {
   min-height: 100vh;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-content {
+  min-width: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
