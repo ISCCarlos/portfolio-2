@@ -1,4 +1,11 @@
 {
+  "about": {
+    "contentParagraph0": "Soy un desarrollador frontend con {{experience}} años de experiencia y comenzando un nuevo camino en el desarrollo backend.",
+    "contentParagraph1": "Mi objetivo profesional es crear software y aplicaciones escalables, confiables y faciles de usar.",
+    "contentParagraph2": "Me identifico como un camaleón por que tengo la capacidad de adaptarme a cambios constantes, con una curva de aprendizaje reducida, demostrando liderazgo durante el proceso.",
+    "contentParagraph3": "Soy un apasionado de la tecnología y gadgets, siempre busco mantenerme a la vanguardia en temas de desarrollo de software, nuevo hardware y como implementarlos en mi día a día.",
+    "title": "Sobre mí"
+  },
   "common": {
     "advanced": "Avanzado",
     "back": "Regresar",

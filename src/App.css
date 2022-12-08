@@ -6,6 +6,7 @@
   font-size: calc(10px + 2vmin);
   margin: 24;
   color: #000;
+  background-color: #fafafa;
 }
 
 .page-content {
@@ -29,4 +30,29 @@
   min-width: 80vw;
   display: flex;
   flex-direction: column;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-card-50-20-1 {
+  border-radius: 10px;
+  background-color: #7de5ed;
+}
+
+.rounded-card-50-20-2 {
+  border-radius: 10px;
+  background-color: #81c6e8;
+}
+
+.rounded-card-50-20-3 {
+  border-radius: 10px;
+  background-color: #5da7db;
+}
+
+.rounded-card-50-20-4 {
+  border-radius: 10px;
+  background-color: #5837d0;
 }

@@ -1,7 +1,9 @@
 {
   "about": {
-    "content": "I'm a frontend software developer with {{experience}} years of experience and starting a route in a backend development.",
-    "content1": "My professional objetive is create scalable, reliable and ",
+    "contentParagraph0": "I'm a frontend software developer with {{experience}} years of experience and starting a route in a backend development.",
+    "contentParagraph1": "My professional goal is to create scalable, reliable and user-friendly software and applications.",
+    "contentParagraph2": "I'm like a chameleon because I can adapt to constant changes, with a reduced learning curve, demonstrating leadership during the process.",
+    "contentParagraph3": "I am passionate about technology and gadgets, I always try to have new knowledge of software development, new hardware and how to implement them in my daily job.",
     "title": "About me"
   },
   "common": {
