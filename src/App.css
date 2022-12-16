@@ -56,3 +56,42 @@
   border-radius: 10px;
   background-color: #5837d0;
 }
+
+.about-content {
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content > img {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+}
+
+.about-content > p {
+  width: 50vw;
+}
+
+@media (max-width: 800px) {
+  .about-content {
+    width: 95vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-content > img {
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  .about-content > p {
+    width: 75vw;
+    margin: 0;
+  }
+}

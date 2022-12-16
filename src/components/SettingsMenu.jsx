@@ -63,13 +63,12 @@ const SettingsMenu = () => {
     <>
       <Tooltip title={translations("header.settings.title")}>
         <IconButton size="large"
-          edge="end"
+          edge="start"
           aria-label="menu"
           aria-controls="settings-menu"
           aria-haspopup="true"
-          onClick={handleMenuOpen}
-          color="inherit">
-          <SettingsIcon />
+          onClick={handleMenuOpen}>
+          <SettingsIcon style={{ color: 'white' }} />
         </IconButton>
       </Tooltip>
 

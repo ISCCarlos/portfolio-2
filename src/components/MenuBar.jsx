@@ -1,4 +1,3 @@
-import { AppBar, Box, Toolbar, Typography } from '@mui/material';
 import React from 'react'
 import { useTranslation } from "react-i18next";
 import { menu } from '../common/utils';
@@ -8,20 +7,27 @@ const MenuBar = () => {
   const [translations] = useTranslation("global");
 
   return (
-    <AppBar position="sticky">
-      <Toolbar>
-        <Typography variant='h3' noWrap component="div">
-          Chavez Dev
-        </Typography>
-        <Box sx={{ flexGrow: 1 }} />
-        <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
-          {menu.map((item) => (
-            <Typography key={item.key} variant='h6' component="div" sx={{ ml: 1, mr: 1 }}>{translations(item.text)}</Typography>
-          ))}
-        </Box>
-        <SettingsMenu />
-      </Toolbar>
-    </AppBar >
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark navbar-sticky">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#home">Chavez Dev</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav ms-auto">
+            {menu.map((item) => (
+              <li className="nav-item">
+                <a className="nav-link" style={{ color: 'white' }} href={"#" + item.key}>{translations(item.text)}</a>
+              </li>
+            ))}
+            <li className="nav-item">
+              <SettingsMenu />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   )
 }
 

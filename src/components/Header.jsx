@@ -8,8 +8,8 @@ import { Link } from '@mui/material';
 const Header = () => {
   return (
     <div className='header'>
-      <p className="title">Chavez</p>
-      <p className="sub-title">Dev</p>
+      <h1 className="display-1 title">Chavez</h1>
+      <h1 className="display-1 sub-title">Dev</h1>
 
       <div className='main-links'>
         <Link href='https://www.linkedin.com/in/carlos-giovanni-ch%C3%A1vez-arias-5502b3212/' target='_blank' color='inherit'><LinkedInIcon fontSize='large' /></Link>
