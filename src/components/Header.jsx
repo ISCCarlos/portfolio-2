@@ -7,7 +7,7 @@ import { Link } from '@mui/material';
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className="header">
       <h1 className="display-1 title">Chavez</h1>
       <h1 className="display-1 sub-title">Dev</h1>
 

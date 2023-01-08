@@ -75,6 +75,27 @@
   width: 50vw;
 }
 
+.tech-stack-content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pills {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.pills > button {
+  margin: 5px;
+}
+
+.pills > button > img {
+  height: 100px;
+}
+
 @media (max-width: 800px) {
   .about-content {
     width: 95vw;
@@ -93,5 +114,12 @@
   .about-content > p {
     width: 75vw;
     margin: 0;
+  }
+
+  .tech-stack-content {
+    width: 95vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

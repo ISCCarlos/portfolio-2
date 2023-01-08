@@ -14,10 +14,10 @@ const MenuBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className=" collapse navbar-collapse" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
             {menu.map((item) => (
-              <li className="nav-item">
+              <li className="nav-item" key={item.key}>
                 <a className="nav-link" style={{ color: 'white' }} href={"#" + item.key}>{translations(item.text)}</a>
               </li>
             ))}

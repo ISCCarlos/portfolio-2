@@ -9,7 +9,7 @@ export const menu = [
 
 export const techStack = [
   {
-    skills: [
+    programmingLanguages: [
       {
         name: "Python",
         icon: "../../assets/icons/skills/python.png",
@@ -26,9 +26,9 @@ export const techStack = [
         color: "#007acc80",
       },
       {
-        name: "HTML",
-        icon: "../../assets/icons/skills/html.png",
-        color: "#e44f2680",
+        name: "Java",
+        icon: "../../assets/icons/skills/java.png",
+        color: "#00c3ff80",
       },
       {
         name: "PHP",
@@ -36,15 +36,17 @@ export const techStack = [
         color: "#6280b680",
       },
       {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
         name: "CSS",
         icon: "../../assets/icons/skills/css.png",
         color: "#1572b680",
       },
-      {
-        name: "Java",
-        icon: "../../assets/icons/skills/java.png",
-        color: "#00c3ff80",
-      },
+    ],
+    frameworks: [
       {
         name: "Yii",
         icon: "../../assets/icons/skills/yii3.png",
@@ -75,6 +77,8 @@ export const techStack = [
         icon: "../../assets/icons/skills/bootstrap.png",
         color: "#53397980",
       },
+    ],
+    devOps: [
       {
         name: "MS SQL Server",
         icon: "../../assets/icons/skills/sql.png",
@@ -100,6 +104,8 @@ export const techStack = [
         icon: "../../assets/icons/skills/git.png",
         color: "#dd4c3580",
       },
+    ],
+    oS: [
       {
         name: "Windows",
         icon: "../../assets/icons/skills/windows.png",
