@@ -35,6 +35,29 @@ body {
   font-weight: bold;
 }
 
+.invisible-card {
+  background-color: #00337c;
+  border: 1px solid white;
+  margin-bottom: 5px;
+}
+
+.custom-card-body {
+  color: white;
+}
+
+.custom-card-title {
+  color: #86e5ff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #03c988;
+}
+
 @media only screen and (min-width: 600px) {
   .side-menu {
     display: none;

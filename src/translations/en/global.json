@@ -64,11 +64,23 @@
     "techStack": "Tech Stack"
   },
   "projects": {
+    "descriptions": {
+      "by": "Web application for warehouse management, using material UI components for react and creating new custom components from the existing components.",
+      "hon": "Using Spring MVC is a web application for receiving data from voice task, updating order status, creating new orders, and showing in real time the picking progress.",
+      "lastMile": "Mobile app for real time tracking of the product delivery route, with incident handling and receipt form.",
+      "mp": "Mobile app for picking orders, using an Azure connection, and implementing a rest API to send data to a database.",
+      "ops": "Web app to generate picking orders with the capability to send them to multiple clients, using an Azure database connection, and updating the orders in real time.",
+      "portfolio": "It includes all my FrontEnd and BackEnd projects made.",
+      "voiceTask": "Specialized application for picking orders, using specialized hardware, this app dictates and listens to the operator's answer, and sends the data to a rest API."
+    },
     "details": {
-      "by": "BY's project",
-      "hon": "Honeywell's project",
-      "nl": "NetLogistik's projects",
-      "portfolio": "My portfolio"
+      "by": "Warehouse Management System",
+      "hon": "Order management application",
+      "lastMile": "Last mile",
+      "mp": "Picking on mobile",
+      "ops": "Order & picking system",
+      "portfolio": "My portfolio",
+      "voiceTask": "Voice task"
     },
     "title": "Projects"
   },

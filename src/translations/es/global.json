@@ -73,11 +73,23 @@
     "techStack": "Tecnologías"
   },
   "projects": {
+    "descriptions": {
+      "by": "Aplicación web para administración de almacenes, usando componentes de material UI para react y creando componentes personalizados reutilizando los existentes.",
+      "hon": "Basada en Spring MVC es un aplicación web que recibe la información de la tarea de voz, actualiza estados de las ordenes, crea nuevas ordenes y muestra en tiempo real el proceso de surtido .",
+      "lastMile": "Aplicación móvil para el rastreo y seguimiento, en tiempo real, de la entrega de productos, manejo de incidencias en ruta y prueba de recibo.",
+      "mp": "Aplicación móvil para el surtido de ordenes dentro del almacen, usando una conexión a Azure, un API Rest se encarga de enviar la información en tiempo real a la base de datos.",
+      "ops": "Aplicación web que genera ordenes de surtido y las envia a diferentes clientes para su ejecución, realiza la conexión a base de datos en Azure y actualiza en tiempo real los estados de las ordenes.",
+      "portfolio": "Incluye los proyectos de FrontEnd y BackEnd que realizado.",
+      "voiceTask": "Aplicación especializada en el surtido de ordenes, usando hardware especializado, esta aplicación dicta y escucha la respuesta del operador, la procesa y envia la información a un API Rest."
+    },
     "details": {
-      "by": "Proyecto de BY",
-      "hon": "Proyecto de Honeywell",
-      "nl": "Proyectos de NetLogistik",
-      "portfolio": "Mi portafolio"
+      "by": "Warehouse Management System",
+      "hon": "Order management application",
+      "lastMile": "Última milla",
+      "mp": "Surtido móvil",
+      "ops": "Sistema de surtido y ordenes",
+      "portfolio": "Mi portafolio",
+      "voiceTask": "Tarea de voz"
     },
     "title": "Proyectos"
   },

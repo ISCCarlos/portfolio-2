@@ -144,3 +144,244 @@ export const languages = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    description: "projects.descriptions.portfolio",
+    githubUrl: "https://github.com/ISCCarlos/portfolio-2",
+    imgPath: "../../assets/icons/CCA.png",
+    projectUrl: "https://cca-portfolio.netlify.app/",
+    technologies: [
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "JavaScript",
+        icon: "../../assets/icons/skills/javascript.png",
+        color: "#f7df1e80",
+      },
+      {
+        name: "React",
+        icon: "../../assets/icons/skills/react.png",
+        color: "#61dafb80",
+      },
+      {
+        name: "Bootstrap",
+        icon: "../../assets/icons/skills/bootstrap.png",
+        color: "#53397980",
+      },
+    ],
+    title: "projects.details.portfolio",
+  },
+  {
+    description: "projects.descriptions.by",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/by.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "../../assets/icons/skills/typescript.png",
+        color: "#007acc80",
+      },
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "React",
+        icon: "../../assets/icons/skills/react.png",
+        color: "#61dafb80",
+      },
+    ],
+    title: "projects.details.by",
+  },
+  {
+    description: "projects.descriptions.voiceTask",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/hn.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "Python",
+        icon: "../../assets/icons/skills/python.png",
+        color: "#3174ab80",
+      },
+    ],
+    title: "projects.details.voiceTask",
+  },
+  {
+    description: "projects.descriptions.hon",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/hn.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "Java",
+        icon: "../../assets/icons/skills/java.png",
+        color: "#00c3ff80",
+      },
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "Spring",
+        icon: "../../assets/icons/skills/spring.png",
+        color: "#6db33f80",
+      },
+      {
+        name: "MS SQL Server",
+        icon: "../../assets/icons/skills/sql.png",
+        color: "#e22f2a80",
+      },
+    ],
+    title: "projects.details.hon",
+  },
+  {
+    description: "projects.descriptions.ops",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/nl.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "PHP",
+        icon: "../../assets/icons/skills/php.png",
+        color: "#6280b680",
+      },
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "Yii",
+        icon: "../../assets/icons/skills/yii3.png",
+        color: "#f18a2a80",
+      },
+      {
+        name: "Bootstrap",
+        icon: "../../assets/icons/skills/bootstrap.png",
+        color: "#53397980",
+      },
+      {
+        name: "MS SQL Server",
+        icon: "../../assets/icons/skills/sql.png",
+        color: "#e22f2a80",
+      },
+      {
+        name: "Azure",
+        icon: "../../assets/icons/skills/azure.png",
+        color: "#035bda80",
+      },
+    ],
+    title: "projects.details.ops",
+  },
+  {
+    description: "projects.descriptions.mp",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/nl.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "TypeScript",
+        icon: "../../assets/icons/skills/typescript.png",
+        color: "#007acc80",
+      },
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "Angular",
+        icon: "../../assets/icons/skills/angular.png",
+        color: "#c3002f80",
+      },
+      {
+        name: "Ionic",
+        icon: "../../assets/icons/skills/ionic.png",
+        color: "#4e8ef780",
+      },
+      {
+        name: "MS SQL Server",
+        icon: "../../assets/icons/skills/sql.png",
+        color: "#e22f2a80",
+      },
+      {
+        name: "Azure",
+        icon: "../../assets/icons/skills/azure.png",
+        color: "#035bda80",
+      },
+    ],
+    title: "projects.details.mp",
+  },
+  {
+    description: "projects.descriptions.lastMile",
+    githubUrl: "",
+    imgPath: "../../assets/icons/projects/nl.png",
+    projectUrl: "",
+    technologies: [
+      {
+        name: "JavaScript",
+        icon: "../../assets/icons/skills/javascript.png",
+        color: "#f7df1e80",
+      },
+      {
+        name: "HTML",
+        icon: "../../assets/icons/skills/html.png",
+        color: "#e44f2680",
+      },
+      {
+        name: "CSS",
+        icon: "../../assets/icons/skills/css.png",
+        color: "#1572b680",
+      },
+      {
+        name: "Angular",
+        icon: "../../assets/icons/skills/angular.png",
+        color: "#c3002f80",
+      },
+      {
+        name: "Ionic",
+        icon: "../../assets/icons/skills/ionic.png",
+        color: "#4e8ef780",
+      },
+      {
+        name: "Azure",
+        icon: "../../assets/icons/skills/azure.png",
+        color: "#035bda80",
+      },
+    ],
+    title: "projects.details.lastMile",
+  },
+];
