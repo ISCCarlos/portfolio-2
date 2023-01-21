@@ -1,9 +1,12 @@
 /* For mobile phones: */
+body {
+  color: #1c82ad;
+  background-color: #13005a;
+}
+
 .App-body {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: #1c82ad;
-  background-color: #13005a;
 }
 
 .side-menu {
