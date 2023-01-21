@@ -10,7 +10,7 @@ const Pill = ({ name, icon, color }) => {
       borderRadius: "10px",
     }}>
       <img src={icon} alt={name} width='auto' height='20px' />
-      <span>{name}</span>
+      <span sx={{ margin: '100px' }}>{name}</span>
     </div >
   )
 }
