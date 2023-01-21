@@ -24,7 +24,7 @@ const Header = () => {
       <h1 className="display-1 sub-title">Dev</h1>
 
       <div className='main-links'>
-        <Button variant='outlined' sx={{ color: 'white', borderColor: 'white' }} onClick={getCV()}>{translations('contact.cv')}</Button>
+        <Button variant='outlined' sx={{ color: 'white', borderColor: 'white' }} onClick={getCV}>{translations('contact.cv')}</Button>
         <Link href='https://www.linkedin.com/in/carlos-giovanni-ch%C3%A1vez-arias-5502b3212/' target='_blank' color='inherit'><LinkedInIcon fontSize='large' /></Link>
         <Link href="https://github.com/ISCCarlos" target="_blank" color='inherit' >
           <GitHubIcon fontSize='large' />
