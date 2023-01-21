@@ -1,6 +1,7 @@
 export const drawerWidth = 240;
 
 export const menu = [
+  { text: "chavez dev", key: "home" },
   { text: "menu.about", key: "about" },
   { text: "menu.techStack", key: "techStack" },
   { text: "menu.projects", key: "projects" },
@@ -78,7 +79,7 @@ export const techStack = [
         color: "#53397980",
       },
     ],
-    devOps: [
+    dataBase: [
       {
         name: "MS SQL Server",
         icon: "../../assets/icons/skills/sql.png",
@@ -89,6 +90,8 @@ export const techStack = [
         icon: "../../assets/icons/skills/mysql.png",
         color: "#e48e0080",
       },
+    ],
+    devOps: [
       {
         name: "Azure",
         icon: "../../assets/icons/skills/azure.png",

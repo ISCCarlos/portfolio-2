@@ -5,8 +5,8 @@ const About = () => {
   const [translations] = useTranslation("global");
 
   return (
-    <div className="about-content">
-      <img src="../../assets/me.jpg" alt="chavez-dev" />
+    <div className="page-content">
+      <h1 className='display-1 page-title'>{translations('about.title')}</h1>
       <p className="card-text">
         {translations("about.contentParagraph0", { experience: 6 })}
         <br />

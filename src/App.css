@@ -1,125 +1,83 @@
+/* For mobile phones: */
+body {
+  color: #1c82ad;
+}
 .App-body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  margin: 24;
   color: #000;
-  background-color: #fafafa;
+  background-color: #13005a;
 }
 
-.page-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 24px;
+.side-menu {
+  display: none;
 }
 
-.card-page {
-  min-height: 100vh;
+@media only screen and (min-width: 600px) {
+  .side-menu {
+    display: none;
+  }
 }
 
-.card-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .side-menu {
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #00337c;
+  }
 
-.card-content {
-  min-width: 80vw;
-  display: flex;
-  flex-direction: column;
-}
+  .avatar-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+  }
 
-.centered-image {
-  display: flex;
-  justify-content: center;
-}
-
-.rounded-card-50-20-1 {
-  border-radius: 10px;
-  background-color: #7de5ed;
-}
-
-.rounded-card-50-20-2 {
-  border-radius: 10px;
-  background-color: #81c6e8;
-}
-
-.rounded-card-50-20-3 {
-  border-radius: 10px;
-  background-color: #5da7db;
-}
-
-.rounded-card-50-20-4 {
-  border-radius: 10px;
-  background-color: #5837d0;
-}
-
-.about-content {
-  height: 100vh;
-  width: 99vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-content > img {
-  height: 20vw;
-  width: 20vw;
-  border-radius: 50%;
-}
-
-.about-content > p {
-  width: 50vw;
-}
-
-.tech-stack-content {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pills {
-  flex-grow: 1;
-  margin: 0;
-}
-
-.pills > button {
-  margin: 5px;
-}
-
-.pills > button > img {
-  height: 100px;
-}
-
-@media (max-width: 800px) {
-  .about-content {
-    width: 95vw;
+  .navigation {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin: none;
+    text-transform: uppercase;
+  }
+
+  .language-selector {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
-  .about-content > img {
-    height: 90vw;
-    width: 90vw;
-    border-radius: 50%;
-    margin: 0;
-  }
-
-  .about-content > p {
-    width: 75vw;
-    margin: 0;
-  }
-
-  .tech-stack-content {
-    width: 95vw;
+  .page-content {
+    min-height: 100vh;
+    width: 79.1vw;
+    display: flex;
+    margin-left: 20vw;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 5%;
+  }
+
+  .page-title {
+    text-transform: uppercase;
+    color: #03c988;
+    font-weight: bold;
+  }
+
+  .page-subtitle {
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: #86e5ff;
+    font-weight: bold;
+  }
+
+  .pill-container {
   }
 }
