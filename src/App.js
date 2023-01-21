@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
+import Projects from "./components/Projects";
 import SideMenu from "./components/SideMenu";
 import TechStack from "./components/TechStack";
 
@@ -11,7 +12,8 @@ function App() {
       <SideMenu />
       <Header id="home" />
       <About id="about" />
-      <TechStack id="projects" />
+      <TechStack id="techStack" />
+      <Projects id="projects" />
       <Contact id="contact" />
     </div>
   );
