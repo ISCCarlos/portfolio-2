@@ -101,7 +101,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='page-content'>
+    <div className='page-content' id="contact">
       <h1 className='display-1 page-title'>{translations('menu.contact')}</h1>
       <span className="spacer"></span>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>

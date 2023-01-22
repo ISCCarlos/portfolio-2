@@ -9,6 +9,10 @@ body {
   font-size: calc(10px + 2vmin);
 }
 
+.bg-primary-custom {
+  background-color: #00337c;
+}
+
 .side-menu {
   display: none;
 }

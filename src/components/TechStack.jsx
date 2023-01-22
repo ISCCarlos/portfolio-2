@@ -17,7 +17,7 @@ const TechStack = () => {
   const oS = techStack[0].oS;
 
   return (
-    <div className='page-content'>
+    <div className='page-content' id="techStack">
       <h1 className='display-1 page-title'>{translations('menu.techStack')}</h1>
 
       <Accordion expanded={expanded === 'languages'} onChange={() => setExpanded('languages')}

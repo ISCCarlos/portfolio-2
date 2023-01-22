@@ -5,7 +5,7 @@ const About = () => {
   const [translations] = useTranslation("global");
 
   return (
-    <div className="page-content">
+    <div className="page-content" id="about">
       <h1 className='display-1 page-title'>{translations('about.title')}</h1>
       <p className="card-text">
         {translations("about.contentParagraph0", { experience: 6 })}

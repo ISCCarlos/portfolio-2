@@ -8,7 +8,7 @@ const MenuBar = () => {
   const [translations] = useTranslation("global");
 
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary navbar-sticky" sx={{ backgroundColor: '#00337c' }}>
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary-custom navbar-sticky">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">Chavez Dev</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
