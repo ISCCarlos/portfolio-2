@@ -219,7 +219,7 @@ export const projects = [
   {
     description: "projects.descriptions.voiceTask",
     githubUrl: "",
-    imgPath: "../../assets/icons/projects/hn.png",
+    imgPath: "../../assets/icons/projects/voicetask.png",
     projectUrl: "",
     technologies: [
       {
@@ -233,7 +233,7 @@ export const projects = [
   {
     description: "projects.descriptions.hon",
     githubUrl: "",
-    imgPath: "../../assets/icons/projects/hn.png",
+    imgPath: "../../assets/icons/projects/oma.png",
     projectUrl: "",
     technologies: [
       {
@@ -267,7 +267,7 @@ export const projects = [
   {
     description: "projects.descriptions.ops",
     githubUrl: "",
-    imgPath: "../../assets/icons/projects/nl.png",
+    imgPath: "../../assets/icons/projects/ops.png",
     projectUrl: "",
     technologies: [
       {
@@ -311,7 +311,7 @@ export const projects = [
   {
     description: "projects.descriptions.mp",
     githubUrl: "",
-    imgPath: "../../assets/icons/projects/nl.png",
+    imgPath: "../../assets/icons/projects/mp.png",
     projectUrl: "",
     technologies: [
       {
@@ -355,7 +355,7 @@ export const projects = [
   {
     description: "projects.descriptions.lastMile",
     githubUrl: "",
-    imgPath: "../../assets/icons/projects/nl.png",
+    imgPath: "../../assets/icons/projects/lastmile.png",
     projectUrl: "",
     technologies: [
       {
