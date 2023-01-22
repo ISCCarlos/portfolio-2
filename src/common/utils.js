@@ -156,7 +156,7 @@ export const projects = [
   {
     description: "projects.descriptions.portfolio",
     githubUrl: "https://github.com/ISCCarlos/portfolio-2",
-    imgPath: "../../assets/icons/CCA.png",
+    imgPath: "../../assets/icons/projects/portfolio.png",
     projectUrl: "https://cca-portfolio.netlify.app/",
     technologies: [
       {
