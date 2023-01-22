@@ -16,8 +16,8 @@
     "finish": "Finish",
     "intermediate": "Intermediate",
     "invalidMail": "Invalid e-mail.",
+    "invalidMessage": "Message is required.",
     "invalidName": "Invalid name.",
-    "invalidPhone": "Invalid phone.",
     "private": "Private",
     "public": "Public",
     "rookie": "Rookie",
@@ -27,8 +27,8 @@
   "contact": {
     "cv": "Get my resume",
     "email": "Email",
+    "message": "Message",
     "name": "Name",
-    "phone": "Phone",
     "submit": "Submit",
     "title": "Contact"
   },

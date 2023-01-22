@@ -16,8 +16,8 @@
     "finish": "Finalizar",
     "intermediate": "Intermedio",
     "invalidMail": "El campo correo electrónico es invalido.",
+    "invalidMessage": "El campo mensaje es requerido..",
     "invalidName": "El campo nombre es inválido.",
-    "invalidPhone": "El campo teléfono es inválido.",
     "private": "Privado",
     "public": "Público",
     "rookie": "Novato",
@@ -27,8 +27,8 @@
   "contact": {
     "cv": "Descarga mi CV",
     "email": "Correo electrónico",
+    "message": "Mensaje",
     "name": "Nombre",
-    "phone": "Teléfono",
     "submit": "Enviar",
     "title": "Contacto"
   },

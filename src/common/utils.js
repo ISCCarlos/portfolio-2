@@ -1,5 +1,12 @@
 export const drawerWidth = 240;
 
+export const mobileMenu = [
+  { text: "menu.about", key: "about" },
+  { text: "menu.techStack", key: "techStack" },
+  { text: "menu.projects", key: "projects" },
+  { text: "menu.contact", key: "contact" },
+];
+
 export const menu = [
   { text: "chavez dev", key: "home" },
   { text: "menu.about", key: "about" },

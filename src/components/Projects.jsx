@@ -10,33 +10,33 @@ const Projects = () => {
   const [translations] = useTranslation("global");
 
   return (
-    <div className='page-content'>
-      <h1 className='display-1 page-title'>{translations('projects.title')}</h1>
+    <div key={'projects-container'} className='page-content' id="projects">
+      <h1 className='display-1 page-title' key="projects-title">{translations('projects.title')}</h1>
 
       <div className="row">
 
         {projects.map((project) => {
           return (
             <>
-              <div className="col-sm-3">
-                <div className="card invisible-card">
-                  <div className="card-body custom-card-body">
-                    <img src={`${project.imgPath}`} className="card-img-top" alt={translations(project.title)} />
-                    <h5 className="card-title custom-card-title">{translations(project.title)}</h5>
-                    <h6 className="card-text">{translations(project.description)}</h6>
-                    <section justifyContent="space-evenly" alignItems="center">
+              <div className="col-sm-3" key={project.title + '-container'}>
+                <div className="card invisible-card" key={project.title + '-card'}>
+                  <div className="card-body custom-card-body" key={project.title + '-bodyCard'}>
+                    <img key={project.title + '-image'} src={`${project.imgPath}`} className="card-img-top" alt={translations(project.title)} />
+                    <h5 key={project.title + '-cardTitle'} className="card-title custom-card-title">{translations(project.title)}</h5>
+                    <h6 key={project.title + '-cardSubtitle'} className="card-text">{translations(project.description)}</h6>
+                    <section key={project.title + '-projectTechnologies'}>
                       {project.technologies.map((technology) => {
                         return (
-                          <MiniPill name={technology.name} icon={technology.icon} color={technology.color} />)
+                          <MiniPill key={project.title + '-' + technology.name} name={technology.name} icon={technology.icon} color={technology.color} />)
                       })}
                     </section>
-                    <section className='project-links'>
-                      <Stack spacing={2} direction='row'>
-                        {project.githubUrl !== '' && (<Link href={project.githubUrl} target="_blank" color='inherit' >
-                          <GitHubIcon fontSize='large' />
+                    <section className='project-links' key={project.title + '-projectLinks'}>
+                      <Stack key={project.title + '-linksContainer'} spacing={2} direction='row'>
+                        {project.githubUrl !== '' && (<Link key={project.title + '-githubLink'} href={project.githubUrl} target="_blank" color='inherit' >
+                          <GitHubIcon key={project.title + '-githubIcon'} fontSize='large' />
                         </Link>)}
-                        {project.projectUrl !== '' && (<Link href={project.projectUrl} target="_blank" color='inherit' >
-                          <LinkIcon fontSize='large' />
+                        {project.projectUrl !== '' && (<Link key={project.title + '-link'} href={project.projectUrl} target="_blank" color='inherit' >
+                          <LinkIcon key={project.title + '-icon'} fontSize='large' />
                         </Link>)}
                       </Stack>
                     </section>

@@ -35,7 +35,7 @@ const TechStack = () => {
             spacing={{ xs: 1, sm: 2, md: 4 }}
           >
             {programmingLanguages.map((language) => (
-              <Pill name={language.name} icon={language.icon} color={language.color} />
+              <Pill key={language.name} name={language.name} icon={language.icon} color={language.color} />
             ))}
           </Stack>
         </AccordionDetails>
@@ -54,7 +54,7 @@ const TechStack = () => {
             spacing={{ xs: 1, sm: 2, md: 4 }}
           >
             {frameworks.map((framework) => (
-              <Pill name={framework.name} icon={framework.icon} color={framework.color} />
+              <Pill key={framework.name} name={framework.name} icon={framework.icon} color={framework.color} />
             ))}
           </Stack>
         </AccordionDetails>
@@ -73,7 +73,7 @@ const TechStack = () => {
             spacing={{ xs: 1, sm: 2, md: 4 }}
           >
             {dataBase.map((dataBase) => (
-              <Pill name={dataBase.name} icon={dataBase.icon} color={dataBase.color} />
+              <Pill key={dataBase.name} name={dataBase.name} icon={dataBase.icon} color={dataBase.color} />
             ))}
           </Stack>
         </AccordionDetails>
@@ -92,7 +92,7 @@ const TechStack = () => {
             spacing={{ xs: 1, sm: 2, md: 4 }}
           >
             {devOps.map((devOp) => (
-              <Pill name={devOp.name} icon={devOp.icon} color={devOp.color} />
+              <Pill key={devOp.name} name={devOp.name} icon={devOp.icon} color={devOp.color} />
             ))}
           </Stack>
         </AccordionDetails>
@@ -111,7 +111,7 @@ const TechStack = () => {
             spacing={{ xs: 1, sm: 2, md: 4 }}
           >
             {oS.map((os) => (
-              <Pill name={os.name} icon={os.icon} color={os.color} />
+              <Pill key={os.name} name={os.name} icon={os.icon} color={os.color} />
             ))}
           </Stack>
         </AccordionDetails>
