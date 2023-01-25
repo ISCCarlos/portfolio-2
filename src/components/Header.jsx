@@ -11,7 +11,7 @@ const Header = () => {
 
   const language = i18n.language;
 
-  const file = "../../assets/docs/" + language + "_CV.pdf";
+  const file = "../../assets/docs/" + language.slice(0, 2) + "_CV.pdf";
 
   return (
     <div className="header" id="home">
@@ -19,7 +19,11 @@ const Header = () => {
       <h1 className="display-1 sub-title">Dev</h1>
 
       <div className='main-links'>
-        <Button href={file} variant='outlined' sx={{ color: 'white', borderColor: 'white' }} download>{translations('contact.cv')}</Button>
+        <Button variant='outlined' sx={{ color: 'white', borderColor: 'white' }}>
+          <a href={file} target="_blank" rel="noopener noreferrer" download="CV.pdf">
+            {translations('contact.cv')}
+          </a>
+        </Button>
         <Link href='https://www.linkedin.com/in/carlos-giovanni-ch%C3%A1vez-arias-5502b3212/' target='_blank' color='inherit'><LinkedInIcon fontSize='large' /></Link>
         <Link href="https://github.com/ISCCarlos" target="_blank" color='inherit' >
           <GitHubIcon fontSize='large' />
@@ -28,7 +32,7 @@ const Header = () => {
           <TelegramIcon fontSize='large' />
         </Link>
       </div>
-    </div>
+    </div >
   )
 }
 
