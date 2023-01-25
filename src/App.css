@@ -1,4 +1,5 @@
-/* For mobile phones: */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 body {
   color: #1c82ad;
   background-color: #13005a;
@@ -94,13 +95,177 @@ body {
   flex-grow: 0.3;
 }
 
-@media only screen and (min-width: 600px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    color: #1c82ad;
+    background-color: #13005a;
+  }
+
+  .App-body {
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .bg-primary-custom {
+    background-color: #00337c;
+  }
+
   .side-menu {
     display: none;
   }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    list-style: none;
+    margin: none;
+    text-transform: uppercase;
+  }
+
+  .language-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .page-content {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+  }
+
+  .page-title {
+    text-transform: uppercase;
+    color: #03c988;
+    font-weight: bold;
+  }
+
+  .page-subtitle {
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: #86e5ff;
+    font-weight: bold;
+  }
+
+  .invisible-card {
+    background-color: #00337c;
+    border: 1px solid white;
+    margin-bottom: 5px;
+  }
+
+  .custom-card-body {
+    color: white;
+  }
+
+  .custom-card-title {
+    color: #86e5ff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #03c988;
+  }
+
+  .spacer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.3;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
+  /* For desktop: */
+  .side-menu {
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #00337c;
+  }
+
+  .avatar-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin: none;
+    text-transform: uppercase;
+  }
+
+  .language-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-content {
+    min-height: 100vh;
+    width: 79.1vw;
+    display: flex;
+    margin-left: 20vw;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .page-title {
+    text-transform: uppercase;
+    color: #03c988;
+    font-weight: bold;
+  }
+
+  .page-subtitle {
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: #86e5ff;
+    font-weight: bold;
+  }
+
+  .spacer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
   .navbar {
     display: none;
   }
