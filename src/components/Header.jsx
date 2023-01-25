@@ -20,7 +20,7 @@ const Header = () => {
 
       <div className='main-links'>
         <Button variant='outlined' sx={{ color: 'white', borderColor: 'white' }}>
-          <a href={file} target="_blank" rel="noopener noreferrer" download="CV.pdf">
+          <a href={file} target="_blank" rel="noopener noreferrer" download="CV.pdf" style={{ textDecoration: 'none', color: 'white' }}>
             {translations('contact.cv')}
           </a>
         </Button>
