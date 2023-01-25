@@ -17,7 +17,7 @@ const CssTextField = styled(TextField)({
     color: 'white',
   },
   '& label': {
-    color: 'white',
+    color: 'white'
   },
   '& .MuiOutlinedInput-root': {
     '& fieldset': {
@@ -30,6 +30,7 @@ const CssTextField = styled(TextField)({
     },
     '&.Mui-focused fieldset': {
       borderColor: 'white',
+      color: 'white'
     },
   },
 });
@@ -39,6 +40,12 @@ const Contact = () => {
   const [open, setOpen] = useState(false);
   const [alertSeverity, setAlertSeverity] = useState("warning");
   const [message, setMessage] = useState("");
+
+  const resetFields = () => {
+    document.getElementById("name").value = '';
+    document.getElementById("message").value = '';
+    document.getElementById("mail").value = '';
+  };
 
   const handleClose = () => {
     setOpen(false);
@@ -86,13 +93,14 @@ const Contact = () => {
           templateID,
           {
             from_name: fromName,
-            message: message,
+            phone: message,
             reply_to: replyTo,
           },
           userID
         )
         .then(() => {
           error = false;
+          resetFields();
           setAlertSeverity("success");
           setMessage("common.successMail");
           showAlert();
