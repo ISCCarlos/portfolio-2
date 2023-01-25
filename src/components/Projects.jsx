@@ -11,9 +11,9 @@ const Projects = () => {
 
   return (
     <div key={'projects-container'} className='page-content' id="projects">
-      <h1 className='display-1 page-title' key="projects-title">{translations('projects.title')}</h1>
+      <h1 className='display-1 page-title' key="projectsPageTitle">{translations('projects.title')}</h1>
 
-      <div className="row">
+      <div className="row" id="projects-cardContainer">
 
         {projects.map((project) => {
           return (
