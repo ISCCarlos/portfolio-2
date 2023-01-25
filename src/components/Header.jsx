@@ -5,7 +5,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import { Button, Link } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import { saveAs } from "file-saver";
 
 const Header = () => {
   const [translations, i18n] = useTranslation("global");
@@ -13,14 +12,6 @@ const Header = () => {
   const language = i18n.language;
 
   const file = "../../assets/docs/" + language + "_CV.pdf";
-
-  const getCV = () => {
-    const language = i18n.language;
-
-    const file = "../../assets/docs/" + language + "_CV.pdf";
-
-    saveAs(file, "CV.pdf");
-  };
 
   return (
     <div className="header" id="home">
